@@ -316,17 +316,8 @@ h4 {
   }
   h3 {
     font-size: 1.5rem;
-
   }
-
 }
-
-
-
-
-
-
-
 
 hr {
   margin: 5% auto 5%;
@@ -336,17 +327,16 @@ hr {
   border-color:  white;
   text-align: center;
 }
+
 #contact {
   background: url("../img/CosmicTree.png") repeat 0 0;
   background-size: cover;
   height: 100vh;
   text-align: center;
   padding: 0 auto 0;
-  min-height: 700px
+
 }
 .form-div {
-  max-width: 400px;
-  min-height: 400px;
   margin: auto;
   align-items: center;
   padding: auto;
@@ -394,6 +384,37 @@ form input, form textarea {
 .email-link:hover {
   color: #774360;
 }
+@media (min-width: 300px) {
+  .form-div {
+    height: 90%;
+    width: 80%;
+    min-height: 400px;
+    margin: auto;
+  }
+@media (min-width: 544px) {
+  .form-div {
+    max-width: 400px;
+    min-height: 400px;
+    margin: auto;
+    align-items: center;
+    padding: auto;
+  }
+  .form-button {
+    height: 40px;
+    width: 50%;
+    min-width: 200px;
+
+  }
+  .contact {
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+  .contact-text {
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
 footer {
   margin: 2% auto;
   text-align: center;
@@ -407,5 +428,4 @@ footer {
 .footer-text {
   font-size: 1rem;
   color: white;
-
 }
