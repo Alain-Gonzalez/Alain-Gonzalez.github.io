@@ -1,0 +1,411 @@
+body {
+  background-color: black;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2rem;
+
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+
+}
+#my-self {
+  background: url("../img/Space.png") repeat 0 0;
+  background-size: cover;
+  height: 100vh;
+  min-height: 1050px;
+
+}
+.nav-button {
+  margin: 2% 1% 2% 1%;
+  padding: 1% auto 1% auto;
+  width: 110px;
+  font-size: 1.3rem;
+  background-color: #000000;
+}
+.nav-div {
+  text-align: left;
+}
+
+
+
+
+.title {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  color: #774360;
+  letter-spacing: 0.4rem;
+  margin-bottom: 10%;
+  text-align: center;
+
+
+}
+
+
+
+
+
+.glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.37);
+  border-radius: 20px;
+  background-size: contain;
+  height: auto;
+
+}
+
+.nav-page {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin: 0 10% 0 100px;
+
+}
+
+.profile-img {
+  width: 70%;
+  border-radius: 100%;
+  max-width: 370px;
+}
+.profile-img-div {
+  width: 100%;
+  min-width: 350px;
+  text-align: center;
+  top: -15px;
+}
+.profile-text-div {
+  top: 100px;
+  min-width: 350px;
+  padding-top: 77px;
+}
+.about-me {
+  margin: 70px 20px 20px 20px;
+  color:#DFDFDE;
+  padding: 10%;
+  text-align: justify;
+
+}
+.name {
+  min-width: 310px;
+  text-align: center;
+
+}
+.one {
+  position: relative;
+}
+.two {
+
+  position: absolute;
+}
+
+.details {
+  text-align: justify;
+  margin: 0px;
+}
+
+#my-self {
+  padding: 10% 5%;
+}
+@media (min-width: 544px) {
+  h1 {
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      line-height: 2rem;
+
+    }
+    .profile-img-div {
+      top: -15px
+    }
+    .profile-text-div {
+      padding-top: 77px;
+      top: 150px;
+    }
+    #my-self {
+      padding: 10% 5%;
+    }
+    .about-me {
+
+    }
+
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size:3.5rem;
+    line-height: 4rem;
+  }
+  #my-self {
+    padding: 3% 10% 10%;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+  }
+  .profile-img-div {
+    top: -50px
+  }
+  .profile-text-div {
+    padding-top: 0;
+    top: 200px;
+  }
+
+}
+@media (min-width: 992px) {
+  h1 {font-size:4rem;
+    line-height: 6rem} /*1rem = 16px*/
+    #my-self {
+      padding: 3% 5% 10%;
+    }
+    h2 {
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+
+    }
+    .profile-img-div {
+      top: -60px
+    }
+    .profile-text-div {
+      padding-top: 0;
+      top: 77px;
+    }
+
+}
+@media (min-width: 1200px) {
+  h1 {font-size: 5rem;
+    line-height: 6rem
+    }
+    #my-self {
+      padding: 3% 15% 10%;
+    }
+    .profile-img-div {
+      top: -70px;
+    }
+}
+@media (min-width: 1700px) {
+    .profile-img-div {
+      top: -100px;
+    }
+}
+@media (min-width: 1920px) {
+  h1 {font-size: 6.5rem;
+    line-height: 7rem
+    }
+    h2 {
+      font-size: 1.9rem;
+      line-height: 3rem;
+    }
+    #my-self {
+      padding: 3% 15% 10%;;
+    }
+    .profile-img-div {
+
+    }
+    .profile-text-div {
+
+
+    }
+
+
+}
+
+
+#skills {
+  background-color: #1B1A17;
+  background: url("../img/Star-rain.png") repeat 0 0;
+  background-size: cover;
+  height: 100vh;
+  padding: 3% 5% 5%;
+  position: relative;
+  min-height: 800px;
+}
+
+.icons {
+  font-size: 5rem;
+}
+.icons-small {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  margin: auto;
+  letter-spacing: 0.2rem;
+  line-height: 3.5rem;
+}
+h4 {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: white;
+  line-height: 2.5rem;
+}
+.big-text {
+  font-size: 1.5rem;
+}
+.skill-div {
+
+  margin: 5% auto;
+  max-width: 80%;
+  height: 650px;
+
+
+}
+.skill-p {
+  margin: 0
+}
+@media (min-width: 544px) {
+  .skill-div {
+    height: 600px;
+  }
+  .icons-small {
+    font-size: 3.5rem;
+  }
+  .big-text {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.5rem
+  }
+  #skills {
+    padding: 3% 5% 5%;
+  }
+}
+@media (min-width: 768px) {
+  .skill-div {
+    height: 500px;
+  }
+  .big-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .skill-div {
+    min-height: 500px;
+  }
+}
+@media (min-width: 1920px) {
+  .icons-small {
+    font-size: 5rem;
+  }
+  .skill-div {
+    min-height: 500px;
+  }
+  #skills {
+    padding: 5% 10% 10%;
+
+  }
+
+  .big-text {
+    font-size: 2.1rem;
+  }
+  h4 {
+    font-size: 2.5rem;
+    line-height: 5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+hr {
+  margin: 5% auto 5%;
+  border-style: dotted none none;
+  border-width: 9px;
+  width: 20%;
+  border-color:  white;
+  text-align: center;
+}
+#contact {
+  background: url("../img/cosmicTree.png") repeat 0 0;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  padding: 0 auto 0;
+  min-height: 700px
+}
+.form-div {
+  max-width: 400px;
+  min-height: 400px;
+  margin: auto;
+  align-items: center;
+  padding: auto;
+}
+form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10% 7% 10%;
+}
+form input, form textarea {
+  border: 0;
+  width: 100%;
+  border-radius: 10px;
+  margin: 2% 0% 2%;
+  padding: 2% 2%;
+  font-size: 20px;
+  opacity: 80%;
+  resize: none;
+}
+.form-button {
+  text-align: center;
+  height: 40px;
+  width: 50%;
+  min-width: 200px;
+  font-size: 1.2rem;
+  margin: 0 auto 0;
+
+}
+.contact {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: white;
+}
+.contact-text {
+  text-align: justify;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: white;
+}
+.email-link {
+  color: #A8A4CE;
+}
+.email-link:hover {
+  color: #774360;
+}
+footer {
+  margin: 2% auto;
+  text-align: center;
+}
+.footer-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.footer-text {
+  font-size: 1rem;
+  color: white;
+
+}
